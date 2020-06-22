@@ -8,7 +8,9 @@ edition = "2018"
 
 [dependencies]
 async-std = { version = "1", features = ["attributes"] }
+async-trait = "0.1"
 dotenv = "0.15"
 http-client = "3"
+scraper = "0.12"
 serde = "1"
 surf = "2.0.0-alpha.4"

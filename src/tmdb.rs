@@ -30,6 +30,11 @@ struct Search {
     year: Option<i32>,
 }
 
+pub(crate) struct SearchInfo {
+    query: String,
+    year: Option<i32>,
+}
+
 #[derive(Serialize, Deserialize)]
 struct SearchResult {
     id: i32,
